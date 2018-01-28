@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+html, body {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #1abc9c;
+}
+i {
+	display: inline-block;
+	color: #7f8c8d;
+}
+.full-height {
+	display: table;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+/*HERO*/
+.hero {
+	background-image: url(../img/my-photo-new.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ccc;
+}
+.hero h1, h3 {
+	color: #000;
+}
+.hero h2 {
+	display: none;
+}
+
+/*SKILLS*/
+.skills {
+	background-color: #ecf0f1;
+}
+.skills h1 {
+	padding-top: 30px;
+}
+.icons {
+ 	padding-top: 100px; 
+}
+.skills i {
+	font-size: 60px;
+	padding: 10px;
+	color: #7f8c8d;
+}
+.skills img {
+	width: 320px;
+	height: 102px;
+	margin-top: 20px;
+	
+}
+
+/*PROJECTS*/
+.projects {
+	background-color: #ecf0f1;
+}
+.projects p {
+	text-transform: uppercase;
+}
+.flex-gallery {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.flex-element {
+	height: 200px;
+	margin: 40px 60px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 10px 10px 28px -8px rgba(5,5,5,1);
+	flex: 1;
+}
+.img-1 {background-image: url("../img/simple-website.png");}
+.img-2 {background-image: url("../img/game.png");}
+.img-3 {background-image: url("../img/country-search.png");}
+.img-4 {background-image: url("../img/kanban-board.png");}
+
+.flex-layer {
+	display: none;
+	background-color: #b2bec3;
+	opacity: 0.8;
+	height: 200px;
+}
+.flex-element:hover .flex-layer {
+	display: block;
+}
+.flex-layer i {
+	margin-top: 25px;
+	color: #000;
+}
+
+
+/*CONTACT*/
+.contact {
+	background-color: #ecf0f1;
+}
+.contact p {
+	display: inline;
+}
+.contact i {
+	margin: 10px;
+}
+
+/*FORM*/
+form {
+	background: #26313B; 
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 150px;
+	max-width: 350px;
+	padding: 10px;
+	text-align: center;
+	height: 250px;
+	box-shadow: 10px 10px 28px -8px rgba(5,5,5,1);
+	margin: 30px auto;
+}
+
+/*SCROLLER BUTTON*/
+#section-scroller-button {
+	position: fixed;
+	right: 60px;
+	bottom: 50px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #1abc9c;
+	color: white;
+	z-index: 10;
+	cursor: pointer;
+	box-shadow: 0 8px 42px -10px rgba(0, 0, 0, 0.85);
+}
+.caret {
+	position: absolute;
+	top: 0;
+	width: 5px;
+	height: 5px;
+	display: inline;
+	margin: 22px 23px;
+	padding: 3px;
+	border-bottom: solid 3px #fff;
+	border-right: solid 3px #fff;
+	transform: rotate(45deg);
+	transition: all 0.6s;
+}
+
+#section-scroller-button.rotate .caret {
+	top: 4px;
+	transform: rotate(-135deg);
+}
+.animated.standby {
+  animation: none !important;
+  visibility: hidden;
+}
+
+/*MEDIA Q*/
+@media (max-width: 767px) {
+	#section-scroller-button {
+		right: 25px;
+		bottom: 25px;
+	}
+	.hero {
+		background-image: url(../img/my-photo-min.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.hero h1 {
+		padding-top: 50px; 
+	}
+	.hero h3 {
+		font-size: 18px;
+	}
+	.skills .icons {
+ 		padding-top: 25px;
+	}
+	.skills i {
+		font-size: 50px;
+		padding: 15px;
+	}
+	.flex-element {
+		height: 200px;
+		margin: 25px 15px;
+	}
+	.flex-layer {
+		height: 200px;
+	}
+	.flex-layer h3, p {
+		font-size: 0.8em;
+	}
+	.img-1 {background-image: url("../img/simple-website-min.png");}
+	.img-2 {background-image: url("../img/game-min.png");}
+	.img-3 {background-image: url("../img/country-search-min.png");}
+	.img-4 {background-image: url("../img/kanban-board-min.png");}
+}
