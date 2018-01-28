@@ -33,6 +33,7 @@ i {
 	background-image: url(../img/file.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100vh;
 	color: #ccc;
 }
 .hero h1, h3 {
