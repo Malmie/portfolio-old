@@ -138,6 +138,8 @@ form {
 }
 input, textarea {
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
 	padding: 5px;
 	margin: 5px;
 }
