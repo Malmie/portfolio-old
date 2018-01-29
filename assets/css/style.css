@@ -9,6 +9,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	line-height: 1.5;
+	background-color: #ecf0f1;
 }
 
 h1, h2, h3 {
@@ -30,7 +31,7 @@ i {
 
 /*HERO*/
 .hero {
-	background-image: url(../img/my-photo.jpg);
+	background-image: url(../img/file.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
