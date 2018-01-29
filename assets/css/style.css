@@ -80,6 +80,10 @@ i {
 }
 .flex-row {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
