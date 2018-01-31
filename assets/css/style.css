@@ -40,6 +40,7 @@ i {
 .hero h1, h3 {
 	color: #000;
 }
+
 .hero h2 {
 	display: none;
 }
@@ -79,12 +80,14 @@ i {
 	margin-left: auto;
 }
 .flex-row {
-	display: flex;
 	display: -webkit-flex;
 	display: -ms-flex;
+	display: flex;
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	 -webkit-justify-content: space-around;
+	 -ms-justify-content: space-around;
 	justify-content: space-around;
 }
 .flex-element {
@@ -109,7 +112,12 @@ i {
 	height: 200px;
 }
 .flex-element:hover .flex-layer {
-	display: block;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 .flex-layer i {
 	margin-top: 25px;
@@ -131,13 +139,20 @@ i {
 /*FORM*/
 form {
 	background: #7f8c8d; 
+	display: -webkit-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
 	flex-flow: column nowrap;
 	align-items: center;
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
 	justify-content: space-around;
 	padding: 10px;
 	text-align: center;
-	height: 350px;
+	min-height: 350px;
+	min-width: 250px;
 	box-shadow: 10px 10px 28px -8px rgba(5,5,5,1);
 	margin: 30px auto;
 	font-family: 'Roboto', sans-serif;
@@ -154,6 +169,7 @@ input[type="submit"] {
 	background-color: #1abc9c; 
 	border: none;
 	width: 60px;
+	text-align: center;
 }
 
 

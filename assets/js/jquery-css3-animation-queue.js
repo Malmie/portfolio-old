@@ -1,20 +1,3 @@
-/*!
- * jQuery CSS3 Animation Queue
- * https://github.com/Richard1320/jQuery-CSS3-Animation-Queue
- *
- * Author
- * Richard Hung
- * http://www.magicmediamuse.com/
- *
- * Version
- * 1.0.4
- *
- * Copyright (c) 2016 Richard Hung.
- *
- * License
- * jQuery CSS3 Animation Queue by Richard Hung is licensed under a MIT License.
- * http://opensource.org/licenses/MIT
- */
 
 (function($) {
 	'use strict';
@@ -54,7 +37,7 @@
 			queueActive = true;
 
 			// Set default delay
-			var delay = 500;
+			var delay = 100;
 
 			// Shift the first element out of queue
 			var first_element = queue.shift();
