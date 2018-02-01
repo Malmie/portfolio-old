@@ -22,7 +22,7 @@ h1, h2, h3 {
 i {
 	display: inline-block;
 	color: #7f8c8d;
-	text-shadow: 1px 1px 2px #1abc9c;
+	text-shadow: 1px 1px 2px #fff;
 }
 .full-height {
 	display: table;
@@ -253,10 +253,28 @@ input[type="submit"] {
 	.flex-layer h3, p {
 		font-size: 0.8em;
 	}
-	.img-1 {background-image: url("../img/simple-website-min.png");}
-	.img-2 {background-image: url("../img/game-min.png");}
-	.img-3 {background-image: url("../img/country-search-min.png");}
-	.img-4 {background-image: url("../img/kanban-board-min.png");}
+	.img-1 {
+		background-image: url("../img/simple-website.png");
+		width: 115px;
+		height: 200px;
+
+	}
+	.img-2 {
+		background-image: url("../img/game.png");
+		width: 115px;
+		height: 200px;
+	}
+	.img-3 {
+		background-image: url("../img/country-search.png");
+		width: 115px;
+		height: 200px;
+		background-position: left;
+	}
+	.img-4 {
+		background-image: url("../img/kanban-board.png");
+		width: 115px;
+		height: 200px;
+		background-position: left;
 	}
 	form {
 		width: 250px;
