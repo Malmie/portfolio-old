@@ -105,8 +105,8 @@ i {
 	flex: 1;
 }
 .img-1 {background-image: url("../img/simple-website.png");}
-.img-2 {background-image: url("../img/game.png");}
-.img-3 {background-image: url("../img/country-search.png");}
+.img-2 {background-image: url("../img/country-search.png");}
+.img-3 {background-image: url("../img/game.png");}
 .img-4 {background-image: url("../img/kanban-board.png");}
 
 .flex-layer {
@@ -156,7 +156,7 @@ form {
 	justify-content: space-around;
 	padding: 10px;
 	text-align: center;
-	min-height: 350px;
+	min-height: 300px;
 	width: 250px;
 	box-shadow: 10px 10px 28px -8px rgba(5,5,5,1);
 	margin: 30px auto;
@@ -172,7 +172,7 @@ input, textarea {
 	width: 220px;
 }
 textarea {
-	height: 320px;
+	height: 300px;
 }
 input[type="submit"] {
 	background-color: #1abc9c; 
@@ -237,7 +237,7 @@ input[type="submit"] {
 		font-size: 13px;
 	}
 	.skills .icons {
- 		padding-top: 25px;
+ 		padding-top: 20px;
 	}
 	.skills i {
 		font-size: 50px;
@@ -245,7 +245,7 @@ input[type="submit"] {
 	}
 	.flex-element {
 		height: 200px;
-		margin: 20px 10px;
+		margin: 10px 10px;
 	}
 	.flex-layer {
 		height: 200px;
@@ -253,28 +253,11 @@ input[type="submit"] {
 	.flex-layer h3, p {
 		font-size: 0.8em;
 	}
-	.img-1 {
-		background-image: url("../img/simple-website.png");
-		width: 115px;
-		height: 200px;
-	}
-	.img-2 {
-		background-image: url("../img/game.png");
-		width: 115px;
-		height: 200px;
-	}
-	.img-3 {
-		background-image: url("../img/country-search.png");
-		width: 115px;
-		height: 200px;
-		background-position: left;
-	}
-	.img-4 {
-		background-image: url("../img/kanban-board.png");
-		width: 115px;
-		height: 200px;
-		background-position: left;
-	}
+	.img-1 {background-image: url("../img/simple-website.png");}
+	.img-2 {background-image: url("../img/country-search-min.png");}
+	.img-3 {background-image: url("../img/game-min.png");}
+	.img-4 {background-image: url("../img/kanban-board-min.png");}
+
 	textarea {
 		height: 250px;
 	}
