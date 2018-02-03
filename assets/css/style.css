@@ -120,7 +120,7 @@ i {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	-webkit-flex-direction;
+	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
 }
@@ -173,6 +173,7 @@ input, textarea {
 	padding: 5px;
 	margin: 10px;
 	width: 220px;
+	border: none;
 	border-radius: 5px;
 }
 textarea {
@@ -267,3 +268,4 @@ input[type="submit"] {
 	textarea {
 		height: 200px;
 	}
+}
