@@ -24,6 +24,10 @@ i {
 	color: #7f8c8d;
 	text-shadow: 1px 1px 2px #fff;
 }
+a {
+	text-decoration: none;
+	color: #000;
+}
 .full-height {
 	display: table;
 	width: 100%;
