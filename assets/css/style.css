@@ -258,24 +258,24 @@ input[type="submit"] {
 		padding: 15px;
 	}
 	.flex-element {
-		height: 130px;
-		margin: 20px 10px;
+		height: 150px;
+		margin: 20px 5px;
 	}
 	.flex-layer {
-		height: 130px;
+		height: 150px;
 	}
 	.flex-layer h3 {
-		font-size: 0.4em;
+		display: none;
 	}
 	.flex-layer p {
-		font-size: 0.3em;
+		font-size: 0.6em;
 	}
-	.img-1 {background-image: url("../img/psd.png");}
-	.img-2 {background-image: url("../img/bootstrap.png");}
+	.img-1 {background-image: url("../img/psd-min.png");}
+	.img-2 {background-image: url("../img/bootstrap-min.png");}
 	.img-3 {background-image: url("../img/simple-website.png");}
-	.img-4 {background-image: url("../img/country-search-min.png");}
-	.img-5 {background-image: url("../img/game-min.png");}
-	.img-6 {background-image: url("../img/kanban-board-min.png");}
+	.img-4 {background-image: url("../img/game-min.png");}
+	.img-5 {background-image: url("../img/kanban-board-min.png");}
+	.img-6 {background-image: url("../img/country-search-min.png");}
 
 	textarea {
 		height: 200px;
