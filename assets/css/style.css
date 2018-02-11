@@ -102,7 +102,7 @@ a {
 .flex-element {
 	height: 200px;
 	flex-basis: 200px;
-	margin: 40px 20px;
+	margin: 40px 10px;
 	background-position: center;
 	background-size: cover;
 	box-shadow: 0px 0px 20px -6px rgba(5,5,5,1);
@@ -113,9 +113,9 @@ a {
 .img-1 {background-image: url("../img/psd.png"); background-position: top;}
 .img-2 {background-image: url("../img/bootstrap.png"); background-position: top;}
 .img-3 {background-image: url("../img/simple-website.png");}
-.img-4 {background-image: url("../img/country-search.png");}
-.img-5 {background-image: url("../img/game.png");}
-.img-6 {background-image: url("../img/kanban-board.png");}
+.img-4 {background-image: url("../img/game.png");}
+.img-5 {background-image: url("../img/kanban-board.png");}
+.img-6 {background-image: url("../img/country-search.png");}
 
 .flex-layer {
 	display: none;
@@ -258,14 +258,17 @@ input[type="submit"] {
 		padding: 15px;
 	}
 	.flex-element {
-		height: 200px;
-		margin: 10px 10px;
+		height: 130px;
+		margin: 20px 10px;
 	}
 	.flex-layer {
-		height: 200px;
+		height: 130px;
 	}
-	.flex-layer h3, p {
-		font-size: 0.8em;
+	.flex-layer h3 {
+		font-size: 0.4em;
+	}
+	.flex-layer p {
+		font-size: 0.3em;
 	}
 	.img-1 {background-image: url("../img/psd.png");}
 	.img-2 {background-image: url("../img/bootstrap.png");}
