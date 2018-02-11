@@ -94,14 +94,15 @@ a {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	 -webkit-justify-content: space-between;
+/*	 -webkit-justify-content: space-between;
 	 -ms-justify-content: space-between;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-between;*/
+	/*align-items: center;*/
 }
 .flex-element {
 	height: 200px;
-	margin: 40px 60px;
+	flex-basis: 200px;
+	margin: 40px 20px;
 	background-position: center;
 	background-size: cover;
 	box-shadow: 0px 0px 20px -6px rgba(5,5,5,1);
@@ -109,10 +110,12 @@ a {
     -ms-flex: 1;
 	flex: 1;
 }
-.img-1 {background-image: url("../img/simple-website.png");}
-.img-2 {background-image: url("../img/country-search.png");}
-.img-3 {background-image: url("../img/game.png");}
-.img-4 {background-image: url("../img/kanban-board.png");}
+.img-1 {background-image: url("../img/psd.png"); background-position: top;}
+.img-2 {background-image: url("../img/bootstrap.png"); background-position: top;}
+.img-3 {background-image: url("../img/simple-website.png");}
+.img-4 {background-image: url("../img/country-search.png");}
+.img-5 {background-image: url("../img/game.png");}
+.img-6 {background-image: url("../img/kanban-board.png");}
 
 .flex-layer {
 	display: none;
@@ -264,10 +267,12 @@ input[type="submit"] {
 	.flex-layer h3, p {
 		font-size: 0.8em;
 	}
-	.img-1 {background-image: url("../img/simple-website.png");}
-	.img-2 {background-image: url("../img/country-search-min.png");}
-	.img-3 {background-image: url("../img/game-min.png");}
-	.img-4 {background-image: url("../img/kanban-board-min.png");}
+	.img-1 {background-image: url("../img/psd.png");}
+	.img-2 {background-image: url("../img/bootstrap.png");}
+	.img-3 {background-image: url("../img/simple-website.png");}
+	.img-4 {background-image: url("../img/country-search-min.png");}
+	.img-5 {background-image: url("../img/game-min.png");}
+	.img-6 {background-image: url("../img/kanban-board-min.png");}
 
 	textarea {
 		height: 200px;
