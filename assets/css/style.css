@@ -94,10 +94,6 @@ a {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-/*	 -webkit-justify-content: space-between;
-	 -ms-justify-content: space-between;
-	justify-content: space-between;*/
-	/*align-items: center;*/
 }
 .flex-element {
 	height: 200px;
@@ -119,7 +115,7 @@ a {
 
 .flex-layer {
 	display: none;
-	background-color: #b2bec3;
+	background-color: #ecf0f1;
 	opacity: 0.8;
 	height: 200px;
 }
@@ -278,6 +274,6 @@ input[type="submit"] {
 	.img-6 {background-image: url("../img/country-search-min.png");}
 
 	textarea {
-		height: 200px;
+		height: 180px;
 	}
 }

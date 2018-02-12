@@ -37,7 +37,7 @@
 			queueActive = true;
 
 			// Set default delay
-			var delay = 100;
+			var delay = 1000;
 
 			// Shift the first element out of queue
 			var first_element = queue.shift();

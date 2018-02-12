@@ -6,7 +6,7 @@ $(function(){
 		scrollDuration: 900,
 	});
 
-//text animation
+//hero text animation
 	function changeText(cont1,cont2,speed){
 		var Otext=cont1.text();
 		var Ocontent=Otext.split("");
