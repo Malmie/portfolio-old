@@ -71,13 +71,46 @@ a {
 	color: #7f8c8d;
 	cursor: pointer;
 }
-i:hover {
-	color: #1abc9c;
-}
 .skills img {
 	width: 320px;
 	height: 102px;
 	margin-top: 20px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    min-width: 120px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip .text-ga {
+	bottom: 29%;
+	left: 115%;
+}
+.tooltip .text-bottom {
+	bottom: -50%;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 0.8;
 }
 
 /*PROJECTS*/
@@ -250,11 +283,23 @@ input[type="submit"] {
 		font-size: 13px;
 	}
 	.skills .icons {
- 		padding-top: 20px;
+ 		margin-top: 10px;
 	}
 	.skills i {
 		font-size: 40px;
 		padding: 10px;
+	}
+	.tooltip .text-mobile {
+		bottom: -50%;
+	}
+	.tooltip .text-ga {
+		bottom: 60%;
+    	left: 50%;
+	}
+	.skills img {
+		width: 160px;
+		height: 51px;
+		margin-top: 25px;
 	}
 	.flex-element {
 		height: 150px;
