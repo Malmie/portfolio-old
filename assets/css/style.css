@@ -282,12 +282,17 @@ input[type="submit"] {
 	.hero h3 {
 		font-size: 13px;
 	}
-	.skills .icons {
- 		margin-top: 10px;
+	.icons {
+ 		padding-top: 50px; 
 	}
 	.skills i {
 		font-size: 40px;
 		padding: 10px;
+	}
+	.skills img {
+		width: 160px;
+		height: 51px;
+		margin-top: 25px;
 	}
 	.tooltip .text-mobile {
 		bottom: -50%;
@@ -295,11 +300,6 @@ input[type="submit"] {
 	.tooltip .text-ga {
 		bottom: 60%;
     	left: 50%;
-	}
-	.skills img {
-		width: 160px;
-		height: 51px;
-		margin-top: 25px;
 	}
 	.flex-element {
 		height: 150px;
