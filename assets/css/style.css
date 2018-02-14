@@ -64,6 +64,8 @@ a {
 }
 .icons {
  	padding-top: 100px; 
+ 	overflow: hidden;
+ 	padding-bottom: 50px;
 }
 .skills i {
 	font-size: 60px;
@@ -83,7 +85,7 @@ a {
 
 .tooltip .tooltip-text {
     visibility: hidden;
-    min-width: 120px;
+    width: 120px;
     height: 20px;
     font-size: 12px;
     background-color: #1abc9c;
@@ -99,10 +101,6 @@ a {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 1s;
-}
-.tooltip .text-ga {
-	bottom: 29%;
-	left: 115%;
 }
 .tooltip .text-bottom {
 	bottom: -50%;
@@ -292,14 +290,9 @@ input[type="submit"] {
 	.skills img {
 		width: 160px;
 		height: 51px;
-		margin-top: 25px;
 	}
 	.tooltip .text-mobile {
 		bottom: -50%;
-	}
-	.tooltip .text-ga {
-		bottom: 60%;
-    	left: 50%;
 	}
 	.flex-element {
 		height: 150px;
