@@ -40,7 +40,7 @@ a {
 
 /*HERO*/
 .hero {
-	background-image: url(../img/my-photo-transparent.jpg);
+	background-image: url(../img/my-photo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
