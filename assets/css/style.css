@@ -40,7 +40,7 @@ a {
 
 /*HERO*/
 .hero {
-	background-image: url(../img/my-photo.JPG);
+	background-image: url(../img/my-photo-transparent.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
@@ -74,15 +74,12 @@ a {
 	cursor: pointer;
 }
 .skills img {
-	width: 320px;
-	height: 102px;
 	margin-top: 20px;
 }
 .tooltip {
     position: relative;
     display: inline-block;
 }
-
 .tooltip .tooltip-text {
     visibility: hidden;
     width: 120px;
@@ -215,6 +212,7 @@ input, textarea {
 }
 textarea {
 	height: 260px;
+	display: flex;
 }
 input[type="submit"] {
 	background-color: #1abc9c; 
@@ -270,7 +268,7 @@ input[type="submit"] {
 		bottom: 20px;
 	}
 	.hero {
-		background-image: url(../img/my-photo-min.png);
+		background-image: url(../img/my-photo-min.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
