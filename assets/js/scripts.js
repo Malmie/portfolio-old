@@ -21,5 +21,4 @@ $(function(){
 		var Otimer=setInterval(show,speed);
 	};
   	changeText($("h2"),$(".text-animation"),90); 
-  	clearInterval(Otimer);
 });
